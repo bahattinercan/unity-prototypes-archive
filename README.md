@@ -48,7 +48,7 @@ Bittiği gün donan prototipler — o dönem amaç oynanışı hızlı doğrulam
 
 | Prototip | Ne yapıyor | Öne çıkan sistemler |
 |---|---|---|
-| [`2d-platformer`](https://github.com/bahattinercan/2d-platformer) | Uçtan uca oynanabilir 2B platform oyunu: bölüm, kayıt noktası, düşman, menü. | `PlayerController` + `GrabableLedge` (çıkıntı tutma), `MovingPlatform`, `CheckPointController`, `StompBox` (düşman ezme), `LevelManager` |
+| [`2d-platformer`](https://github.com/bahattinercan/2d-platformer) | Hazır bir 2B platform şablonu (Prototype Hero) üzerine kurulmuş; bölüm, kayıt noktası, düşman ve menü ile uçtan uca oynanabilir hâle getirilmiş platform oyunu. | `PlayerController` + `GrabableLedge` (çıkıntı tutma), `MovingPlatform`, `CheckPointController`, `StompBox` (düşman ezme), `LevelManager` |
 | [`mario-clone`](https://github.com/bahattinercan/mario-clone) | Mario tarzı 2B platform: farklı düşmanlar, boss ve ateşli saldırı. | `Boss4Health` (fazlı boss), `PlayerShoot` + `FireBullet`, `PlayerDamage`, kurbağa/salyangoz/örümcek davranışları |
 | [`zelda-like`](https://github.com/bahattinercan/zelda-like) | Oda oda ilerleyen tepeden bakış aksiyon-macera. | `Inventory` + `Item`, `PowerUp`, `HeartManager`, `Knockback`, `Interactable` + `ContextClue` (etkileşim ipucu), `RoomMove` kamera geçişi, devriye düşmanı (`PatrolLog`) |
 
@@ -65,7 +65,7 @@ Bittiği gün donan prototipler — o dönem amaç oynanışı hızlı doğrulam
 | Prototip | Ne yapıyor | Öne çıkan sistemler |
 |---|---|---|
 | [`rhythm-surfer`](https://github.com/bahattinercan/rhythm-surfer) | Engelleri doğru renkle karşılayarak geçtiğin ritim oyunu. | `AudioPeer` (FFT ile bant analizi), `ChangeColorObs` (renk değiştiren engel), `CristalSpawner`, `PlayerColor`, `HpPanel` |
-| [`catch-rhythm`](https://github.com/bahattinercan/catch-rhythm) | Ritim + şekil/renk eşleştirme; oynanış ayarları ve ilerleme kaydı. | `AudioClipSO`/`MaterialsSO`/`ColorListSO` ile veri odaklı içerik, `CristalButtonUI`, `GameplaySettingsSO`, `DataPersistenceManager` |
+| [`catch-rhythm`](https://github.com/bahattinercan/catch-rhythm) | `rhythm-surfer` ile aynı çekirdeği paylaşan devam prototipi: ritim + şekil/renk eşleştirme, oynanış ayarları ve ilerleme kaydı. | `AudioClipSO`/`MaterialsSO`/`ColorListSO` ile veri odaklı içerik, `CristalButtonUI`, `GameplaySettingsSO`, `DataPersistenceManager` |
 
 ### Strateji ve savunma
 
