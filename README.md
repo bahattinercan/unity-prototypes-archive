@@ -14,11 +14,11 @@ Amaç 23 ayrı repo yerine tek bir okunabilir anlatı bırakmak.</sub>
 
 ## Bu ne, ne değil
 
-**Ne:** Her prototip **çalışan bir oyun döngüsüne** sahipti — başla, oyna, skor al, bitir, kaydet.
+**Ne:** Her prototip **çalışan bir oyun döngüsüne** sahipti: başla, oyna, skor al, bitir, kaydet.
 Ortak ihtiyaçlar (üretim, kalıcılık, girdi, kamera) her projede tekrar tekrar çözüldü.
 
 **Ne değil:** Ürün değil. Hiçbirinde test yok, mağaza çıkışı yok, performans bütçesi çıkarılmamış.
-Bittiği gün donan prototipler — o dönem amaç oynanışı hızlı doğrulamaktı.
+Bittiği gün donan prototipler; o dönem amaç oynanışı hızlı doğrulamaktı.
 
 ---
 
@@ -115,8 +115,8 @@ Bu bölümü arşivin parçası sayıyorum; 2022'deki hâlimle 2026'daki hâlim 
 
 - **Test yoktu.** Skor, ekonomi ve eşleşme mantığı sahnede MonoBehaviour içindeydi.
   Bugün `match_2_blast`'taki `GameLogic` gibi saf C# çekirdekleri ayırıp JVM/NUnit testiyle kilitlerdim.
-- **Dengeleme değerleri prefab'lara dağılmıştı.** Tamamı tek ScriptableObject ayar dosyasına toplanmalı
-  — `GameplaySettingsSO`'yu tek prototipte denedim, hepsine yaymadım.
+- **Dengeleme değerleri prefab'lara dağılmıştı.** Tamamı tek ScriptableObject ayar dosyasına toplanmalı.
+  `GameplaySettingsSO`'yu tek prototipte denedim, hepsine yaymadım.
 - **README yazmadım.** Sonuç: 24 repo yıllarca isimsiz kaldı ve 2026'da ne olduklarını çıkarmak için
   script adlarını tek tek okumam gerekti. Bu repo tam olarak o borcun ödemesi.
 - **Kayıt sistemi her projede yeniden yazıldı.** Tek pakete çıkarılıp paylaşılmalıydı.
